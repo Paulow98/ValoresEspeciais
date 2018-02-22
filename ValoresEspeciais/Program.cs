@@ -29,7 +29,15 @@ namespace ValoresEspeciais
             Console.WriteLine("Float negative infinity:" + float.NegativeInfinity + " positive infinity:" + float.PositiveInfinity + " NaN:" + float.NaN);
             Console.WriteLine("Double negative infinity:" + double.NegativeInfinity + " positive infinity:" + double.PositiveInfinity + " NaN:" + double.NaN);
 
+            int a = int.MaxValue;
+            short b = short.MaxValue;
+            long c = long.MaxValue;
 
+            Console.WriteLine($"Overflow de Int: {a + 6}");
+            Console.WriteLine($"Overflow de Short: {b + short.MaxValue + 10}");
+            Console.WriteLine($"Overflow de Long: {c + 50}");
+            Console.WriteLine();
+            
 
         }
     }
