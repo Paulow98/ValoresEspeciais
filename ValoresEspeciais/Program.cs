@@ -43,7 +43,12 @@ namespace ValoresEspeciais
             Console.WriteLine($"Overflow de Float: {d + 2}");
             Console.WriteLine($"Overflow de Double: {e + 2}");
             Console.WriteLine();
-            
+            d = float.MinValue;
+            e = double.MinValue;
+            Console.WriteLine($"Underflow de Float: {d - 2}");
+            Console.WriteLine($"Underflow de Double: {e - 2}");
+
+            Console.ReadKey();
 
 
         }
