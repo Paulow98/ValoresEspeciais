@@ -23,8 +23,14 @@ namespace ValoresEspeciais
             Console.WriteLine("ulong: " + "Min:" + ulong.MinValue + " Max: " + ulong.MaxValue);
             Console.WriteLine("char: " + "Min:" + char.MinValue + " Max: " + char.MaxValue);
 
-            
-            
+            Console.WriteLine();
+            Console.WriteLine();
+
+            Console.WriteLine("Float negative infinity:" + float.NegativeInfinity + " positive infinity:" + float.PositiveInfinity + " NaN:" + float.NaN);
+            Console.WriteLine("Double negative infinity:" + double.NegativeInfinity + " positive infinity:" + double.PositiveInfinity + " NaN:" + double.NaN);
+
+
+
         }
     }
 }
