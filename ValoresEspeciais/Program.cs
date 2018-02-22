@@ -37,7 +37,14 @@ namespace ValoresEspeciais
             Console.WriteLine($"Overflow de Short: {b + short.MaxValue + 10}");
             Console.WriteLine($"Overflow de Long: {c + 50}");
             Console.WriteLine();
+            float d = float.MaxValue;
+            double e = double.MaxValue;
+
+            Console.WriteLine($"Overflow de Float: {d + 2}");
+            Console.WriteLine($"Overflow de Double: {e + 2}");
+            Console.WriteLine();
             
+
 
         }
     }
