@@ -49,7 +49,8 @@ namespace ValoresEspeciais
             Console.WriteLine($"Underflow de Double: {e - 2}");
 
             int x = 0;
-            Console.WriteLine($"O valor de x é {x}, mas usando a operacao x++ ele é:{x++}, apos a operacao ele e:{x} ");
+            Console.WriteLine($"O valor de x é {x}, mas usando a operacao x++ ele é:{x++}, apos a operacao ele é:{x} ");
+            Console.WriteLine($"O valor de x é {x}, mas usando a operação ++x ele é:{++x}, ja mudando seu valor quando apresentado");
 
 
             Console.ReadKey();
